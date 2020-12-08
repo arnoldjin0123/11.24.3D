@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class TouchEvent : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Animator NPCAni;
+
+    void OnTriggerEnter(Collider col)
     {
-        
+        if (col.tag=="Talking")
+        {
+            NPCAni.SetBool("Talking", true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerExit(Collider col)
     {
-        
+        if (col.tag=="Talking")
+        {
+            NPCAni.SetBool("Talking", false);
+        }
     }
 }
