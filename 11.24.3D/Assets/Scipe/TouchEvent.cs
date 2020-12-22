@@ -8,21 +8,22 @@ public class TouchEvent : MonoBehaviour
     public Animator NPCAni;
     public GameObject TalkingPanel;
     public Text NPCName;
+    public string ThisNPCName;
     public NPCData NPCDaiolouge;
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.tag=="Talking")
+        if (col.tag=="MainCharacter")
         {
             NPCAni.SetBool("Talking", true);
             TalkingPanel.SetActive (true);
-            NPCName.text = "Green cloth's villagers";
+            NPCName.text = ThisNPCName;
         }
     }
 
     void OnTriggerExit(Collider col)
     {
-        if (col.tag=="Talking")
+        if (col.tag== "MainCharacter")
         {
             NPCAni.SetBool("Talking", false);
             TalkingPanel.SetActive(false);

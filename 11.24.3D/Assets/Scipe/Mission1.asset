@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715b714fac02f594ca746fceee44e8b8, type: 3}
+  m_Name: Mission1
+  m_EditorClassIdentifier: 
+  Daiolouge1: "\u89AA\u611B\u7684\u72D7\u554A! \u90A3\u7FA4\u7378\u4EBA\u53C8\u56DE\u5230\u4E86\u9019\u7247\u571F\u5730\u4E0A\u4E86!"
+  Daiolouge2: "\u8ACB\u4F60\u5E6B\u5E6B\u6211\u9664\u6389\u90A3\u4E9B\u738B\u516B\u86CB\u3002\u8B93\u9019\u584A\u571F\u5E95\u56DE\u5230\u4EE5\u5F80\u7684\u6A23\u5B50\u3002"
+  Daiolouge3: "\u53EA\u8981\u4F60\u9664\u6389\u7260\u3002\u6211\u6703\u7D66\u4F60\u975E\u5E38\u8C50\u539A\u7684\u734E\u8CDE\u7684\u3002"
+  MissionTargetVal: 10
+  YourTargetVal: 0
