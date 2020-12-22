@@ -413,6 +413,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 88133331}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &516887305 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 8f7b486e869602c4f8d1952798f2adba,
+    type: 3}
+  m_PrefabInstance: {fileID: 612521676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &552827346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013421617554, guid: 5bcbf31ded2e353449622ec74f8954da,
@@ -6435,11 +6441,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbe484a0fdcadd45a3b36f19f5452b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NPCAni: {fileID: 0}
-  TalkingPanel: {fileID: 0}
-  NPCName: {fileID: 0}
-  ThisNPCName: 
-  NPCDaiolouge: {fileID: 0}
+  TalkingPanel: {fileID: 1340425630}
+  NPCAni: {fileID: 516887305}
+  ThisNPCName: Green cloth guy
+  NPCName: {fileID: 1376303842}
+  DaiolougeText: {fileID: 254603308}
+  NPCDaiolouge: {fileID: 11400000, guid: 2d96a22d33a97c54bafeb7cbad893eb6, type: 2}
+  TalkingSpeed: 0.1
 --- !u!1 &2010801027
 GameObject:
   m_ObjectHideFlags: 0
