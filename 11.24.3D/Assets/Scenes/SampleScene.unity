@@ -6438,15 +6438,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1791255683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dbe484a0fdcadd45a3b36f19f5452b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 54278544f4b09064a895697b6568e6f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TalkingPanel: {fileID: 1340425630}
-  NPCAni: {fileID: 516887305}
-  ThisNPCName: Green cloth guy
-  NPCName: {fileID: 1376303842}
-  DaiolougeText: {fileID: 254603308}
+  ThisNPCName: Green cloth viligeer
+  NpcName: {fileID: 1376303842}
   NPCDaiolouge: {fileID: 11400000, guid: 2d96a22d33a97c54bafeb7cbad893eb6, type: 2}
+  DaiolougeText: {fileID: 254603308}
+  NpcAni: {fileID: 516887305}
   TalkingSpeed: 0.1
 --- !u!1 &2010801027
 GameObject:
