@@ -7,21 +7,53 @@ public class AttackCombo : MonoBehaviour
     public Animator DogAni;
     private int ComboCounter = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    { 
+    public float Timer = 0f;
 
-    }
+    public float Combo1CDTime = 93f;
+    public float Combo2CDTime = 158f;
+    public float Combo3CDTime = 83f;
+
+    private bool ComboBool = false;
+
     void Update()
     {
-        DogAni.SetInteger("Combo", ComboCounter);
-
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log("MouseClick");
-            ComboCounter = ComboCounter+1;
-            Debug.Log("Combo+1");
+            ComboBool = true;
+            Combo();
         }
+    }
 
+    void ComboCDTime()
+    {
+        Timer += Time.deltaTime;
+    }
+
+    private void Combo()
+    {
+        ComboCounter += 1;
+        ComboBool = false;
+        if (ComboCounter == 1)
+        {
+            DogAni.SetInteger("Combo", ComboCounter);
+            ComboCDTime();
+        }
+            if (ComboBool== &&Timer==Combo1CDTime)
+            {
+                ComboCounter = 0;
+                Timer = 0;
+            }
+
+        if (ComboCounter == 2)
+        {
+            DogAni.SetInteger("Combo", ComboCounter);
+            ComboCDTime();
+        }
+        if (Timer == Combo1CDTime)
+        {
+            ComboCounter = 0;
+            Timer = 0;
+        }
     }
 }
+
