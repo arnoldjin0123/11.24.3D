@@ -38,11 +38,7 @@ public class AttackCombo : MonoBehaviour
             DogAni.SetInteger("Combo", ComboCounter);
             ComboCDTime();
         }
-            if (ComboBool== &&Timer==Combo1CDTime)
-            {
-                ComboCounter = 0;
-                Timer = 0;
-            }
+
 
         if (ComboCounter == 2)
         {

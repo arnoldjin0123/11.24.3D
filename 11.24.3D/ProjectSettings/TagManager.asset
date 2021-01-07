@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Talking
   - MainCharacter
+  - Ground
   layers:
   - Default
   - TransparentFX
